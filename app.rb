@@ -13,5 +13,7 @@ class App < Sinatra::Base
   
   post '/checkout' do 
     
+    
+    redirect to '/'
   end 
 end
